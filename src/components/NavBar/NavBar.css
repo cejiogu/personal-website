@@ -1,0 +1,7 @@
+.NavBar {
+  height:fit-content;
+  width:auto;
+  display: flex;
+  flex-grow: 1;
+  justify-content: end;
+}
