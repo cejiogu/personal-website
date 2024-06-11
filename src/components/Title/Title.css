@@ -1,7 +1,6 @@
 .Title {
+  width: fit-content;
   font-size: 40px;
-  margin-left: 1.5rem;
-  margin-top: 1.5rem;
-  font-weight: 1000;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
