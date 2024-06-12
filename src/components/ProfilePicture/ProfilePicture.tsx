@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProfilePicture.css';
-import headShot from './Trimmed Headshot.jpg';
+import headShot from '../../images/Trimmed Headshot.jpg';
 
 function ProfilePicture() {
   // const onClickFunction = (event) => ();

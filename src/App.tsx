@@ -1,7 +1,7 @@
 import React from 'react';
 import NavigationBar from './components/NavBar/NavBar';
 import Title from './components/Title/Title';
-import ProfilePicture from './components/Images/ProfilePicture';
+import ProfilePicture from './components/ProfilePicture/ProfilePicture';
 import {
   BrowserRouter as Router,
   Routes,
