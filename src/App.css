@@ -45,6 +45,14 @@
   padding: 10px;  
 }
 
+.TopSection {
+  display: inline-flex;
+}
+
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .Footer {
   text-align: center;
 }
