@@ -1,12 +1,22 @@
 import React from 'react';
+import './OrgBox.css';
 
-const Organization = (props: {name: string; img: string; position: string; desc: string}) => {
+
+// {name: string; img: string; position: string; desc: string}
+const Organization = (props: {name: string; img: string}) => {
   return (
-    <div className="OrgBox">
-      <img src={props.img} alt={`This is the logo of the organization '${props.name}'`}/>
-      <h3>{props.name}</h3>
-      <p>Position: {props.position}</p>
-      <p>Description: {props.desc}</p>
+    <div className="OrgBox" style={{fontSize: "18px"}}>
+      <div className="content-container">
+        {/* Image inserted into stand-alone div for styling purposes*/}
+        <div style={{maxWidth: "300px", textAlign: "center", display: "flex", justifyContent: "center"}}>
+          <img style={{width: "auto", height: "200px"}} src={props.img} alt={`This is the logo of the organization '${props.name}'`}/>
+        </div>
+        <div style={{alignContent: "flex-end"}}>
+          <h3 className="text" style={{textAlign: "center", maxWidth: "300px"}}>{props.name}</h3>
+          {/* <p className="text">Position: {props.position}</p>
+          <p className="text">Description: {props.desc}</p> */}
+        </div>
+      </div>   
     </div>
   );
 } 
