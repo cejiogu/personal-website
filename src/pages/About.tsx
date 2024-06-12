@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-
+import Organization from '../components/OrgBox/OrgBox';
 
 // Look into passing in the text style as a prop
 const About = () => {
@@ -16,8 +16,10 @@ const About = () => {
         </p>
         <h2 style={{textAlign: "center",}}>Organizations</h2>
       </div>
+      <Organization name="National Society of Black Engineers" img='' position="Telecommunications Chair" desc="I am a member of Cornell University's chapter of the National Society of Black Engineers."/>
+      <Organization name="Underrepresented Minorities in Computing" img='' position="General Member" desc="I am a member of Cornell University's on-campus organization 'Underrepresented Minorities in Computing.'"/>
+      <Organization name="ColorStack" img='' position='Active Member' desc="I am an active member of the national organization 'ColorStack.'" />
     </React.Fragment>
-    
   );
 }
 
