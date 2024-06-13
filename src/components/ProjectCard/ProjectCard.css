@@ -1,0 +1,8 @@
+.outer-card {
+  width: 90%;
+  height: 30%;
+  border-radius: 30px;
+  background-color: rgba(75, 75, 75, 1);
+  margin: 3% 2% 0 5%;
+  display: inline-flex;
+}
