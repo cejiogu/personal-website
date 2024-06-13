@@ -1,0 +1,24 @@
+.outerBox {
+  width: 250px;
+  height: 500px;
+  background: rgba(91, 91, 91, 1);
+  border-radius: 30px 30px 30px 30px;
+  padding: 5px;
+}
+
+.bar {
+  color: rgb(255, 255, 255);
+  background-color: rgba(67, 65, 65, 1);
+  margin-top: 10px;
+  border: 2px solid rgba(67, 65, 65, 1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.label-box {
+  width: 230px;
+  height: 445px;
+  background-color: rgba(67, 65, 65, 1);
+  border-radius: 10px 10px 15px 15px;
+  margin: 10px;
+}
