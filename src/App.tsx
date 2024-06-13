@@ -1,7 +1,6 @@
 import React from 'react';
 import NavigationBar from './components/NavBar/NavBar';
 import Title from './components/Title/Title';
-import ProfilePicture from './components/ProfilePicture/ProfilePicture';
 import {
   BrowserRouter as Router,
   Routes,
@@ -12,6 +11,7 @@ import './App.css';
 // Pages
 import About from './pages/About';
 import Home from './pages/Home';
+import Experiences from './pages/Experiences';
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/about" element={<About />} />
+          <Route path="/experiences" element={<Experiences />} />
         </Routes>
       </Router>
       <div className="Footer">
