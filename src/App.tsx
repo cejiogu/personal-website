@@ -11,7 +11,7 @@ import './App.css';
 // Pages
 import About from './pages/About';
 import Home from './pages/Home';
-import Experiences from './pages/Experiences';
+import Experiences from './pages/Experiences'; // Page is titled 'Past Projects'
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/about" element={<About />} />
-          <Route path="/experiences" element={<Experiences />} />
+          <Route path="/past-projects" element={<Experiences />} />
         </Routes>
       </Router>
       <div className="Footer">
