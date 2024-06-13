@@ -37,6 +37,17 @@
   }
 } */
 
+.App {
+  flex: 1;
+  background-image: linear-gradient(rgb(0, 34, 255), rgb(21, 20, 125) 20%, rgb(3, 4, 33) 30%, rgb(0, 0, 0), rgba(0, 0, 0, 1) 81%);
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  background-size: cover;
+}
+
 .Header {
   height: fit-content;
   width: auto;
@@ -51,8 +62,12 @@
 
 .text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(213, 213, 213);
 }
 
 .Footer {
   text-align: center;
+  flex-grow: 1;
+  align-content: flex-end;
+  padding: 10px;
 }

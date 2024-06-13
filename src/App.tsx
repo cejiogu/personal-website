@@ -15,20 +15,22 @@ import Experiences from './pages/Experiences'; // Page is titled 'Past Projects'
 
 function App() {
   return (
-    <div className="App">
-      <div className="Header">
-        <Title />
-        <NavigationBar/>
-      </div>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/about" element={<About />} />
-          <Route path="/past-projects" element={<Experiences />} />
-        </Routes>
-      </Router>
-      <div className="Footer">
-        <p>Copyright © 2024 Chimdi Ejiogu. All rights reserved.</p>
+    <div className="background">
+      <div className="App">
+        <div className="Header">
+          <Title />
+          <NavigationBar/>
+        </div>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/about" element={<About />} />
+            <Route path="/past-projects" element={<Experiences />} />
+          </Routes>
+        </Router>
+        <div className="Footer">
+          <p className="text">Copyright © 2024 Chimdi Ejiogu. All rights reserved.</p>
+        </div>
       </div>
     </div>
   );
