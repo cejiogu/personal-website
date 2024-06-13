@@ -3,8 +3,7 @@ import './ProjectList.css';
 
 const ProjectList = () => {
   return (
-    <div>
-      Here
+    <div className="outer-box">
     </div>
   );
 }

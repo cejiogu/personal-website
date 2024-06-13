@@ -1,0 +1,10 @@
+.outer-box {
+  display: flex;
+  width: 60%;
+  height: 600px;
+  /* margin: 2%; */
+  background-color: rgba(91, 91, 91, 1);
+  border-radius: 30px;
+  /* margin-left: 10%; */
+  position: relative;
+}

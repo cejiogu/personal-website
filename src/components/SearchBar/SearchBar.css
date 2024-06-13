@@ -4,6 +4,10 @@
   background: rgba(91, 91, 91, 1);
   border-radius: 30px 30px 30px 30px;
   padding: 5px;
+  position: relative;
+  margin-top: 15px;
+  margin: 2% 6% 0% 3%; 
+  /* margin-right: 10%;  */
 }
 
 .bar {
